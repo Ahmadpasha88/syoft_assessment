@@ -1,0 +1,20 @@
+.homeContainer{
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flower_card{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.flower_card:hover{
+    background-color:darkorchid;
+    color: white;
+}
+
+.flower_card_image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

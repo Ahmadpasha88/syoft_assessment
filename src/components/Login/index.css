@@ -1,0 +1,73 @@
+.topContainer{
+    background-image: url('https://res.cloudinary.com/bloomnation/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1589239766/vendor/5808/catalog/product/2/0/20180318021601_file_5aadcbe1ba1e5.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.appName{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vh;
+    text-shadow: 2px 2px 5px rgb(17, 17, 17);
+}
+
+.errorMsg{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.registerFormContainer{
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+.registrationContainer{
+   background-color: black;
+   color: white;
+   padding-top: 9vh;
+  
+}
+
+.registerBtn{
+    background-color: darkorchid;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
+    padding: 3px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border: 2px solid white;
+}
+
+.registerBtn:hover{
+    color: white;
+    background-color: rgb(188, 20, 230);
+}
+
+@media (max-width: 600px) {
+    .topContainer{
+        background-image: url('https://res.cloudinary.com/bloomnation/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1589239766/vendor/5808/catalog/product/2/0/20180318021601_file_5aadcbe1ba1e5.jpg');
+        background-size: cover;
+        min-height: 40vh;
+        background-position: 50% 40%;
+    }
+    .registrationContainer{
+        margin-top: -43px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        background-color: black;
+        padding-top: 0px;
+        /* padding-bottom: 30px; */
+        min-height: 100vh;
+
+    }
+    .registerBtn{
+        font-size: 17px;
+    }
+  }
