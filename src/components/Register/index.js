@@ -136,10 +136,8 @@ export default function Register() {
               confirmButtonText: "Ok",
             });
           }
-
         } else {
           console.log("Registration failed:", data);
-        
         }
       } catch (error) {
         console.error("Error during registration:", error);
