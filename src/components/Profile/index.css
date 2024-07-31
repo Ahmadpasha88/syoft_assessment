@@ -4,3 +4,9 @@
     font-weight: 500;
 
 }
+
+.profileCard{
+    background-color: rgba(64, 66, 66, 0.884);
+    border-radius: 10px 80px 10px 80px;
+    color: white;
+}

@@ -9,7 +9,7 @@
     border-radius: 10px;
 }
 .flower_card:hover{
-    background-color:darkorchid;
+    background-color:rgba(58, 57, 58, 0.733);
     color: white;
 }
 
